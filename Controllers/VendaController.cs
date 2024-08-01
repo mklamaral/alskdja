@@ -4,7 +4,7 @@ namespace AulaDeASPNet.Controllers
 {
     public class VendaController : Controller
     {
-        public IActionResult Index()
+        public IActionResult CadastroVenda()
         {
             return View();
         }
