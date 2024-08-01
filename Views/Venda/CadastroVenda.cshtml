@@ -1,5 +1,36 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Cadastro Venda";
 }
+@* Formulário Cadastro Venda *@
+<div class="container">
+    @* LINHA TITULO *@
+    <div class="row">
+        <div class="col text-center">
+            <h1> 🌷 Cadastro Venda  🌷</h1>
+        </div>
+    </div>
+    @* LINHA FORMULÁRIO *@
+    <div class="row">
+        <div class="col">
+            <label for="" class="form-label fw-bolder">Nome Produto: </label>
+            <input type="text" class="form-control" id="" />
+        </div>
+        <div class="col-lg-3">
+            <label for="" class="form-label fw-bolder">Nome Cliente:</label>
+            <input type="text" class="form-control" id="" />
+        </div>
+        <div class="col-lg-3">
+            <label for="" class="form-label fw-bolder">Quantidade do Produto:</label>
+            <input type="text" class="form-control" id="" />
+        </div>
+        <div class="col-lg-2">
+            <label for="" class="form-label fw-bolder text-nowrap">Valor Total:</label>
+            <input type="text" class="form-control" id="" />
+        </div>
+    </div>
+    <div class="row mt-3 justify-content-md-end">
+        <div class="col-3 d-flex justify-content-end">
+            <input type="submit" class="btn btn-outline-dark btn-lg" name="name" value="Cadastrar" />
+        </div>
+    </div>
+</div>
