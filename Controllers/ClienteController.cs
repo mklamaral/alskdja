@@ -24,7 +24,7 @@ namespace AulaDeASPNet.Controllers
         {
             return View(await _context.Clientes.FindAsync(Id));
         }
-        // Cadastro de Clientes
+        // Cadastro de Clientes - Se o Id for nulo abre a pagina de cadastro com os campos vazios, senão, abre com os campos do Id.
         public async Task<IActionResult> CadastroCliente(int? Id)
         {
             if (Id == null)
